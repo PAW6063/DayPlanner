@@ -10,9 +10,11 @@ displayDate();
 
 //local storage
 function loadStorage() {
-    let tempLoader = JSON.parse(localStorage.getItem('plannerText'));
-    for(let i = 0; i < plannerText.length; i++){
-        plannerText[i] = tempLoader[i];
+    if(localStorage.getItem('plannerText')){
+        let tempLoader = JSON.parse(localStorage.getItem('plannerText'));
+        for(let i = 0; i < plannerText.length; i++){
+            plannerText[i] = tempLoader[i];
+        }
     }
 }
 
