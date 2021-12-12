@@ -1,4 +1,4 @@
-# Homework05_DayPlanner
+# DayPlanner
 A web app to plan your busy day using dynamically updating html and css.
 
 ## How to use it
@@ -12,7 +12,7 @@ Depending on what time of day it is, you may notice the text boxes may appear di
 # Links
 
 ## Deployed project
-https://paw6063.github.io/Homework05_DayPlanner/
+https://paw6063.github.io/DayPlanner/
 
 ## Github Repository
-https://github.com/PAW6063/Homework05_DayPlanner
+https://github.com/PAW6063/DayPlanner
